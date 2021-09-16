@@ -4,7 +4,7 @@ networks:
 services: 
   nginx:
     image: nginx:stable-alpine
-    container_name: nginx-laravel
+    container_name: nginx
     ports:
       - "8080:80"
     volumes:
