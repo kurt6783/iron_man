@@ -18,6 +18,7 @@ services:
   php:
     image: kurt6783/iron_man
     container_name: php
+    working_dir: /var/www/laravel
     ports:
       - "9000:9000"
     volumes:
