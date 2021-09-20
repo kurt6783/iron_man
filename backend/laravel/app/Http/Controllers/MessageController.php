@@ -9,8 +9,6 @@ class MessageController extends Controller
 {
     public function index ()
     {
-        return 'index';
-        
         $messages = Message::select(
             'id',
             'member',
