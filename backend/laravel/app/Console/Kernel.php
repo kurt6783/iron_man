@@ -25,8 +25,9 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
-        $schedule->command('message:sayHello')->everyMinute();
-        $schedule->command('message:sayHi')->everyFiveMinutes();
+        // $schedule->command('message:sayHello')->everyMinute();
+        // $schedule->command('message:sayHi')->everyFiveMinutes();
+        // $schedule->command('api:exchangeRate')->dailyAt('08:00');
     }
 
     /**
